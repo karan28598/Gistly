@@ -1,0 +1,151 @@
+.row{
+    padding: 3px 0px;
+}
+
+.container{
+  width: 100%;
+  margin: 0 auto;
+}
+
+body{
+    background-image: url(../css/img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #fb9f35;
+    overflow-y: none;
+}
+
+#main{
+  padding-top: 5%;
+}
+
+@font-face {
+    font-family: pacifico;
+    src: url(../css/fonts/Pacifico-Regular.ttf);
+}
+
+@font-face {
+    font-family: cutive;
+    src: url(../css/fonts/CutiveMono-Regular.ttf);
+}
+
+#title{
+	font-size: 55px;
+	color: white;
+    font-family: pacifico;
+}
+
+#desc{
+    font-size: 24px;
+    color: white;
+    font-family: cutive;
+}
+
+#transcript{
+	
+    background-color: none;
+    margin-bottom: 40px;
+    font-size: 24px;
+    color: white;
+    font-family: cutive;
+    padding: 0;
+    height: 520px;
+   
+    overflow: auto;
+    display: inline-block;
+
+
+}
+
+
+#ilogo{
+	width: 400px;
+	height: auto;
+}
+
+.searchbar{
+	width: 40%;
+	border-radius: 4px;
+	size: 20px;
+  border-style: none;
+  left: 396px;
+  top: 153px;
+  height: 43px
+
+}
+input[type="text"]
+{
+    font-size:20px;
+
+    padding-left: 10px;
+}
+
+::-webkit-input-placeholder {
+
+	text-align: center;
+    font-size: 18px;
+    font-family: fantasy;
+
+}
+::-moz-placeholder {
+	text-align: center;
+    font-size: 18px;
+    font-family: fantasy;
+}
+:-ms-input-placeholder {
+	text-align: center;
+    font-size: 18px;
+    font-family: fantasy;
+}
+input:-moz-placeholder {
+	text-align: center;
+    font-size: 18px;
+    font-family: fantasy;
+}
+::-webkit-scrollbar {
+  width: 8px; /* 1px wider than Lion. */
+  /* This is more usable for users trying to click it. */
+  background-color: rgba(0,0,0,0);
+  -webkit-border-radius: 100px;
+
+	text-align: center;
+}
+::-moz-placeholder {
+	text-align: center;
+}
+:-ms-input-placeholder {
+	text-align: center;
+}
+input:-moz-placeholder {
+	text-align: center;
+}
+
+
+
+
+body::-webkit-scrollbar {
+    display: none;
+}
+/* hover effect for both scrollbar area, and scrollbar 'thumb' */
+div::-webkit-scrollbar:hover {
+  background-color: rgba(0, 0, 0, 0.09);
+}
+
+/* The scrollbar 'thumb' ...that marque oval shape in a scrollbar */
+div ::-webkit-scrollbar-thumb:vertical {
+  /* This is the EXACT color of Mac OS scrollbars.
+     Yes, I pulled out digital color meter */
+  background: rgba(255,255,255, 0.3);
+  -webkit-border-radius: 100px;
+    opacity: 1.0;
+}
+div ::-webkit-scrollbar-thumb:vertical:active {
+  background: rgba(0,0,0,0.61); /* Some darker color when you click it */
+  -webkit-border-radius: 100px;
+}
+
+
+
+background: linear-gradient(45deg, white, silver);
+min-height: 100%;
