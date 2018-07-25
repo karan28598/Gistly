@@ -57,7 +57,6 @@
 
 ### TO-DO 
 
-- [ ] Change Algorithm in minify.py for 1 min condensed video length error
 - [ ] Change UI
 - [ ] Fix for it work for all YouTube links
 - [ ] requirements.txt, config.py, package, contributing
@@ -90,29 +89,6 @@
 ### Note
 
 - This project was made at [Hack in the North 3.0](https://www.hackinthenorth.com/) in `36 hours with minimal pre-preparation`
-<div align="center">
-<img src="./assets/hint.PNG">
-</div>
-
-- Speakers
-<div align="center">
-<img src="./assets/speakers.PNG">
-</div>
-
-- Prizes
-<div align="center">
-<img src="./assets/prizes.PNG">
-</div>
-
-- Contests
-<div align="center">
-<img src="./assets/contests.PNG">
-</div>
-
-- HINT3.0
-<div align="center">
-<img src="./assets/closing.jpg">
-</div>
 
 ------------------------------------------
 ### Contributors
